@@ -63,3 +63,8 @@ contract HelperConfig is Script {
         return anvilConfig;
     }
 }
+// 1. Deploy mocks when we are on a local anvil chain
+// 2. Keep track of contract address across different chains
+
+/* With this Helperconfig configured correctly, we will be able to
+work with a local chain, and any chain we want, with no issues */
